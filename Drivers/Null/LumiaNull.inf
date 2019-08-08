@@ -50,9 +50,6 @@ LumiaNull.sys = 1,,
 %EnoGpioNull.DeviceDesc%    = LumiaNull_Device, ACPI\ENOGPIO
 %EnoEmNull.DeviceDesc%      = LumiaNull_Device, ACPI\NOKIA_ENOEM
 %WPCrasherNull.DeviceDesc%  = LumiaNull_Device, ACPI\WP_CRASHER
-%QcGPUNull.DeviceDesc%      = LumiaNull_Device, ACPI\QCOM_GPU
-%BIFBattNull.DeviceDesc%    = LumiaNull_Device, ACPI\QCOM24C2
-%25A0Null.DeviceDesc%       = LumiaNull_Device, ACPI\QCOM25A0
 %1001Null.DeviceDesc%       = LumiaNull_Device, ACPI\MSHW1001
 %1002Null.DeviceDesc%       = LumiaNull_Device, ACPI\MSHW1002
 %1006Null.DeviceDesc%       = LumiaNull_Device, ACPI\MSHW1006
@@ -72,7 +69,7 @@ LumiaNull.sys = 1,,
 %101FNull.DeviceDesc%       = LumiaNull_Device, ACPI\MSHW101F
 %1020Null.DeviceDesc%       = LumiaNull_Device, ACPI\MSHW1020
 %1021Null.DeviceDesc%       = LumiaNull_Device, ACPI\MSHW1021
-%TouchPowerNull.DeviceDesc% = LumiaNull_Device, ACPI\MSHW1024
+%1024Null.DeviceDesc%       = LumiaNull_Device, ACPI\MSHW1024
 
 [LumiaNull_Device.NT]
 CopyFiles = Drivers_Dir
@@ -124,7 +121,6 @@ LumiaNull.SVCDESC         = "LumiaNull Service"
 TouchTestNull.DeviceDesc  = "Touch Driver Test Interface Device"
 TouchNull.DeviceDesc      = "Touch Driver Interface Device"
 hdmidpiNull.DeviceDesc    = "HDMI to Displayport driver"
-QcGPUNull.DeviceDesc      = "Qualcomm GPU Device"
 NokiaAttsNull.DeviceDesc  = "Nokia ATTS Device"
 OddtRegNull.DeviceDesc    = "Nokia Care Diagnostic ODDT Register Device"
 OddtVibNull.DeviceDesc    = "Nokia Care Diagnostic ODDT Vibration Device"
@@ -132,10 +128,6 @@ OddtCpuNull.DeviceDesc    = "Nokia Care Diagnostic ODDT CPU Device"
 EnoGpioNull.DeviceDesc    = "Nokia Care Diagnostic ENO GPIO Device"
 EnoEmNull.DeviceDesc      = "Nokia Care Diagnostic ENO EM Device"
 WPCrasherNull.DeviceDesc  = "Nokia Windows Phone Crasher Device"
-TouchPowerNull.DeviceDesc = "Touch Panel Power Stub Device"
-
-BIFBattNull.DeviceDesc    = "Qualcomm BIF Battery Device"
-25A0Null.DeviceDesc       = "Stub Driver (25A0)" 
 
 1001Null.DeviceDesc       = "mmo security driver"
 1002Null.DeviceDesc       = "Origa2Auth Device"
@@ -155,3 +147,4 @@ BIFBattNull.DeviceDesc    = "Qualcomm BIF Battery Device"
 101FNull.DeviceDesc       = "Sensor Algorithm Control driver"
 1020Null.DeviceDesc       = "Activity Driver"
 1021Null.DeviceDesc       = "Pedometer Driver"
+1024Null.DeviceDesc       = "touch_power Device"
