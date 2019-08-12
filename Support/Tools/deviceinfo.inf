@@ -11,7 +11,7 @@ CatalogFile = deviceinfo.cat
 
 [DestinationDirs]
 Drivers_Dir_24 = 11, OEM
-PstDrv.Files   = 10,OEM
+PstDrv.Files   = 10,OEM\Settings
 
 [SourceDisksNames]
 0 = %DiskId1%

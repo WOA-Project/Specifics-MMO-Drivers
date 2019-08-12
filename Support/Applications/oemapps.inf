@@ -12,7 +12,7 @@ CatalogFile = oemapps.cat
 [DestinationDirs]
 ; 10 = Windows
 oemapps.Files.NTarm = 10,Provisioning\Packages
-PstDrv.Files        = 10,OEM
+PstDrv.Files        = 10,OEM\Applications
 
 [SourceDisksNames]
 0 = %DiskId1%
@@ -36,7 +36,6 @@ CopyFiles = oemapps.Files.NTarm,PstDrv.Files
 OEMApps.ppkg
 
 [PstDrv.Files]
-OEMApps.ppkg
 OEMApps.ps1
 
 AdvancedInfo.appxbundle

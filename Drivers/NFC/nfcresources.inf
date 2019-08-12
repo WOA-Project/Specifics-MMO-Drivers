@@ -13,7 +13,7 @@ CatalogFile = nfcresources.cat
 [DestinationDirs]
 ; 10 = Windows
 ; 12 = Drivers-
-PstDrv.Files  = 10,OEM
+PstDrv.Files  = 10,OEM\Drivers
 
 [SourceDisksNames]
 0 = %DiskId1%
