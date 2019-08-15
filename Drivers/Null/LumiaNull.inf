@@ -67,7 +67,6 @@ LumiaNull.sys = 1,,
 %1021Null.DeviceDesc%       = LumiaNull_Device, ACPI\MSHW1021
 %1024Null.DeviceDesc%       = LumiaNull_Device, ACPI\MSHW1024
 
-%2495Null.DeviceDesc%       = LumiaNull_Device, ACPI\QCOM2495
 %2434Null.DeviceDesc%       = LumiaNull_Device, ACPI\QCOM2434
 %2436Null.DeviceDesc%       = LumiaNull_Device, ACPI\QCOM2436
 %2439Null.DeviceDesc%       = LumiaNull_Device, ACPI\QCOM2439
@@ -148,7 +147,6 @@ WPCrasherNull.DeviceDesc = "Nokia Windows Phone Crasher Device"
 ;
 ; Unavailable Qualcomm drivers for Microsoft Mobile Oy (MMO) devices
 ;
-2495Null.DeviceDesc       = "Qualcomm Sensor Collection"
 2434Null.DeviceDesc       = "Qualcomm Camera Rear Sensor Driver"
 2436Null.DeviceDesc       = "Qualcomm Camera Tertiary Sensor Driver"
 2439Null.DeviceDesc       = "Qualcomm Camera Front Sensor Driver"
