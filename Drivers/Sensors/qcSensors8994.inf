@@ -14,7 +14,7 @@ Signature   = "$WINDOWS NT$"
 Class       = Sensor
 ClassGuid   = {5175D334-C371-4806-B3BA-71FD53C9258D}
 Provider    = %ManufacturerName%
-DriverVer   = 07/02/2015,1.0.1067.0
+DriverVer   = 07/02/2015,1.0.1057.0
 CatalogFile = qcSensors8994.cat
 PnpLockDown = 1
 
