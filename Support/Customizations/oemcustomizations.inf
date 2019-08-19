@@ -35,6 +35,6 @@ IHVSettingsFirstLogon.cmd
 IHVSettingsSpecialize.cmd
 
 [Strings]
-IHV     = "LumiaWOA Authors"
+IHV     = "LumiaWoA authors"
 DiskId1 = "OEM Customizations Installation Disk #1"
 

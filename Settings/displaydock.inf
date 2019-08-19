@@ -25,6 +25,6 @@ CopyFiles = Drivers_Dir_24
 95357b17-9b6a-490e-8025-9b329f954a2d.devicemetadata-ms,,,0x00000800 ;COPYFLG_NODECOMP
 
 [Strings]
-IHV     = "LumiaWOA Authors"
+IHV     = "LumiaWoA authors"
 DiskId1 = "Display Dock Installation Disk #1"
 

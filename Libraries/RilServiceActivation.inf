@@ -25,5 +25,5 @@ CopyFiles = RilServiceActivation.Files
 RilServiceActivation.exe
 
 [Strings]
-IHV = "LumiaWOA Authors"
+IHV = "LumiaWoA authors"
 

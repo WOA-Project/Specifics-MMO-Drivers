@@ -47,6 +47,6 @@ MSNfcI2C547.1809.dll
 MSNfcI2C547.1903.dll
 
 [Strings]
-IHV     = "LumiaWOA Authors"
+IHV     = "LumiaWoA authors"
 DiskId1 = "NFC Resources Installation Disk #1"
 
