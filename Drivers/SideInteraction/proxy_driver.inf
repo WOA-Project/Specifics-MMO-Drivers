@@ -19,10 +19,10 @@ DefaultDestDir = 12
 proxy_driver.sys  = 1,,
 
 [Manufacturer]
-%ManufacturerName% = Standard,NTARM64
+%comp% = Standard,NTARM64
 
 [Standard.NTARM64]
-%TchDriver_Device_Desc% = GripProxy_Inst.NT, Root\GripProxy
+%GripProxy.DeviceDesc% = GripProxy_Inst.NT, Root\GripProxy
 
 ;*****************************************
 ; TchDriver client driver Install Section
@@ -40,7 +40,7 @@ AddService = GripProxy, %SPSVCINST_ASSOCSERVICE%, GripProxy_Inst_Service_Inst
 
 ; ------------- TchDriver driver install section
 [GripProxy_Inst_Service_Inst]
-DisplayName    = %TchDriver_Service_Desc%
+DisplayName    = %GripProxy.SvcDesc%
 ServiceType    = %SERVICE_KERNEL_DRIVER%
 StartType      = %SERVICE_DEMAND_START%
 ErrorControl   = %SERVICE_ERROR_NORMAL%
