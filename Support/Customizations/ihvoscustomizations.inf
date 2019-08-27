@@ -121,6 +121,15 @@ HKLM, "SOFTWARE\Microsoft\Cellular\MVSettings\DeviceSpecific\CellUX\DataClassMap
 HKLM, "SOFTWARE\Microsoft\Cellular\MVSettings\DeviceSpecific\CellUX\DataClassMappingTable", "UMB", 0x0, "5G UMB"
 HKLM, "SOFTWARE\Microsoft\Cellular\MVSettings\DeviceSpecific\CellUX\DataClassMappingTable", "UMTS", 0x0, "3G"
 
+HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\ImmersiveShell", "SignInMode", 0x10001, 0x2
+
+HKLM, "SOFTWARE\Microsoft\Shell\USB", "HideWeakChargerNotifyOptionUI", 0x10001, 0x0
+HKLM, "SOFTWARE\Microsoft\Shell\USB", "NotifyOnWeakCharger", 0x10001, 0x1
+
+HKLM, "SYSTEM\ControlSet001\services\ICSSVC\Settings", "Enabled", 0x10001, 0x1
+HKLM, "SYSTEM\ControlSet001\services\ICSSVC\Settings", "EntitlementRequired", 0x10001, 0x0
+
+
 [Strings]
 IHV     = "LumiaWoA authors"
 DiskId1 = "IHV OS Customizations Installation Disk #1"
