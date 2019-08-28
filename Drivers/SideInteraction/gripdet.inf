@@ -3,8 +3,8 @@
 ;
 [Version]
 Signature   = "$WINDOWS NT$"
-Class       = HIDClass
-ClassGUID   = {745A17A0-74D3-11D0-B6FE-00A0C90F57DA}
+Class       = Sensor
+ClassGUID   = {5175D334-C371-4806-B3BA-71FD53C9258D}
 Provider    = %ManufacturerName%
 DriverVer   = 05/01/2019,6.25.57.445
 CatalogFile = gripdet.cat

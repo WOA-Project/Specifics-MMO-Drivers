@@ -3,9 +3,9 @@
 ;
 [Version]
 Signature   = "$WINDOWS NT$"
-Class       = HIDClass
-ClassGUID   = {745A17A0-74D3-11D0-B6FE-00A0C90F57DA}
-Provider    = %comp%
+Class       = System
+ClassGuid   = {4D36E97D-E325-11CE-BFC1-08002BE10318}
+Provider    = %COMP%
 DriverVer   = 05/01/2019,6.25.57.445
 CatalogFile = proxy_driver.cat
 
@@ -19,7 +19,7 @@ DefaultDestDir = 12
 proxy_driver.sys  = 1,,
 
 [Manufacturer]
-%comp% = Standard,NTARM64
+%COMP% = Standard,NTARM64
 
 [Standard.NTARM64]
 %GripProxy.DeviceDesc% = GripProxy_Inst.NT, Root\GripProxy
@@ -49,7 +49,7 @@ LoadOrderGroup = Base
 
 ; ------------- Strings section
 [Strings]
-comp                    = "Microsoft"
+COMP                    = "Microsoft"
 Installation_Disk       = "GRIP Proxy Driver Installation Disk"
 GripProxy.DeviceDesc    = "GRIP Proxy Driver"
 GripProxy.SvcDesc       = "GRIP Proxy Driver Service"
