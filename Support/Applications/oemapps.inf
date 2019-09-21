@@ -20,6 +20,7 @@ PstDrv.Files        = 10,OEM\Applications
 OEMApps.ps1 = 0,,
 
 AdvancedInfo.appxbundle = 0,,
+ColorProfile.appxbundle = 0,,
 
 
 ;*****************************************
@@ -33,6 +34,7 @@ CopyFiles = PstDrv.Files
 OEMApps.ps1
 
 AdvancedInfo.appxbundle
+ColorProfile.appxbundle
 
 [Strings]
 IHV     = "LumiaWoA authors"
