@@ -6,11 +6,11 @@ Signature   = "$WINDOWS NT$"
 Class       = SYSTEM
 ClassGuid   = {4d36e97d-e325-11ce-bfc1-08002be10318}
 Provider    = %IHV%
-DriverVer   = 09/29/2019,1.0.0.0
+DriverVer   = 09/29/2019,1.0.0.1
 CatalogFile = DisplayDockFlyout.cat
 
 [DestinationDirs]
-DisplayDockFlyout.Files = OEM\Tools
+DisplayDockFlyout.Files = 10,OEM\Tools
 
 [SourceDisksNames]
 0 = "Disk"
