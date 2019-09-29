@@ -6,11 +6,10 @@ Signature   = "$WINDOWS NT$"
 Class       = SYSTEM
 ClassGuid   = {4d36e97d-e325-11ce-bfc1-08002be10318}
 Provider    = %IHV%
-DriverVer   = 09/23/2019,1.0.0.1
+DriverVer   = 09/29/2019,1.0.0.2
 CatalogFile = colorprofiletools.cat
 
 [DestinationDirs]
-OEM.Files      = 10, OEM ; \Windows\OEM We place the change tool here because of bitness issues
 System.Files   = 11
 Profiles.Files = 11, spool\drivers\color ; Color profiles must be placed in the spool color driver directory
 
@@ -18,7 +17,6 @@ Profiles.Files = 11, spool\drivers\color ; Color profiles must be placed in the 
 0 = %DiskId1%
 
 [SourceDisksFiles]
-ChangeColorProfile.exe = 0,,
 ColorProfileListener.exe = 0,,
 Advanced.icm = 0,,
 Cool.icm = 0,,
@@ -31,15 +29,12 @@ Vivid.icm = 0,,
 ;*****************************************
 
 [DefaultInstall.NTARM64]
-CopyFiles = OEM.Files,Profiles.Files,System.Files
+CopyFiles = Profiles.Files,System.Files
 AddReg    = ProfileAction.Reg
 
 [ProfileAction.Reg]
 HKLM, "Software\Microsoft\Windows\Shell\OEM\QuickActions", "ColorProfileQuickAction", 0x10001, 0x1 ; Enable the color profile quick action
 HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\Run", "ColorProfileListener", 0x20000, "%%windir%%\system32\ColorProfileListener.exe" ; Bootstrap the color profile listener and provisioner tool on startup
-
-[OEM.Files]
-ChangeColorProfile.exe
 
 [System.Files]
 ColorProfileListener.exe
