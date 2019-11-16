@@ -21,7 +21,7 @@ PnpLockDown = 1
 
 [DestinationDirs]
 ;12 == Windows\System32\Drivers\UMDF
-DefaultDestDir = 12,UMDF
+AlspDriverCopy = 12,UMDF
 
 [SourceDisksNames]
 1 = %MediaDescription%,,,""
@@ -47,9 +47,6 @@ AddReg    = WdfExt_AddReg
 
 [AlspDriverCopy]
 AlsPrxAlphamon.dll
-
-[DestinationDirs]
-AlspDriverCopy = 12,UMDF
 
 [Alphamon_Inst.NT.HW]
 AddReg = Alphamon_Inst.NT.HW.AddReg
